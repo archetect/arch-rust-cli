@@ -1,0 +1,19 @@
+[package]
+name = "{{ name | snake_case }}"
+version = "0.1.0"
+authors = ["{{ author_full }}"]
+edition = "2018"
+license = "MIT"
+description = "{{ description }}"
+
+[[bin]]
+name = "{{ name | train_case }}"
+path = "src/bin/{{ name | snake_case }}.rs"
+
+[dependencies]
+clap = "2"
+failure = "0.1"
+indoc = "0.3"
+log = "0.4"
+loggerv = "0.7"
+serde = { version = "1.0", features = ["derive"] }

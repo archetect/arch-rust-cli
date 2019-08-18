@@ -1,0 +1,16 @@
+description = "A Rust CLI archetype"
+languages = ["Rust"]
+frameworks = ["Clap"]
+tags = ["CLI"]
+
+[[variable]]
+prompt = "Application Name: "
+name = "name"
+
+[[variable]]
+prompt = "Author: "
+name = "author_full"
+
+[[variable]]
+name = "description"
+default = ""
