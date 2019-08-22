@@ -1,4 +1,5 @@
 description = "A Rust CLI archetype"
+authors = ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
 languages = ["Rust"]
 frameworks = ["Clap"]
 tags = ["CLI"]
