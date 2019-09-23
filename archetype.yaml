@@ -16,3 +16,8 @@ variables:
   description:
     prompt: "Description: "
     value: ""
+
+modules:
+  - template:
+      source: "contents"
+      
