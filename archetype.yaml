@@ -1,0 +1,18 @@
+---
+description: "A Rust CLI archetype"
+authors: ["Jimmie Fulton <jimmie.fulton@gmail.com>"]
+languages: ["Rust"]
+frameworks: ["Clap"]
+tags: ["CLI"]
+
+variables:
+  name:
+    prompt: "Application Name: "
+
+  author_full:
+    prompt: "Author: "
+
+  # Can be overridden with a command line answer
+  description:
+    prompt: "Description: "
+    value: ""
