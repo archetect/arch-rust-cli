@@ -14,6 +14,12 @@ script:
       description:
         value: ""
 
+      artifact-id:
+        value: "{{ name | train_case }}"
+
+      artifact_id:
+        value: "{{ name | snake_case }}"
+
   - render:
       directory:
         source: "contents"
